@@ -15,7 +15,7 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 if uploaded_file:
     # Load the dataset
-    df = pd.read_csv("/workspaces/youtube/Youtube-Spam-Dataset.csv")
+    df = pd.read_csv("Youtube-Spam-Dataset.csv")
     
     # Preview the dataset
     st.subheader('Dataset Preview')
